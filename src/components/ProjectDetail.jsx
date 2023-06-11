@@ -43,7 +43,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
         ];
         return (
           <div className="pt-14 flex justify-between">
-            <div className="pt-10 w-[40vw] h-96 relative mx-5">
+            <div className="pt-5 w-[40vw] h-96 relative mx-5">
               <button
                 onClick={prev}
                 className="absolute hover:scale-150 transition-transform left-3 top-48 w-8 h-8 bg-white text-2xl rounded-full"
@@ -58,7 +58,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
               </button>
               <div
                 id="container"
-                className="transition-all flex flex-nowrap overflow-x-hidden"
+                className="transition-all flex flex-nowrap overflow-x-hidden w-[100%]"
               >
                 <img src="/img/drawing/1.png" alt="" />
                 <img src="/img/drawing/2.png" alt="" />
@@ -80,6 +80,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
                   <a
                     className="underline text-slate-400"
                     href="https://nomadcoders.co/javascript-for-beginners-2"
+                    target="_blank"
                   >
                     바닐라 JS 로 그림 앱 만들기
                   </a>{" "}
@@ -113,6 +114,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
                   <a
                     className="underline text-slate-400"
                     href="https://github.com/endyd9/Drawing-Game"
+                    target="_blank"
                   >
                     소스코드 바로가기
                   </a>
@@ -144,16 +146,16 @@ const ProjectDetail = ({ name, detailStatus }) => {
         ];
         return (
           <div className="pt-10 flex justify-between">
-            <div className="pt-24 w-[40vw] h-96 relative mx-5">
+            <div className="pt-10 w-[40vw] h-96 relative mx-5">
               <button
                 onClick={prev}
-                className="absolute hover:scale-150 transition-transform left-3 top-64 w-8 h-8 bg-white text-2xl rounded-full"
+                className="absolute hover:scale-150 transition-transform left-3 top-56 w-8 h-8 bg-white text-2xl rounded-full"
               >
                 ＜
               </button>
               <button
                 onClick={next}
-                className="absolute hover:scale-150 transition-transform right-3 top-64 w-8 h-8 bg-white text-2xl rounded-full"
+                className="absolute hover:scale-150 transition-transform right-3 top-56 w-8 h-8 bg-white text-2xl rounded-full"
               >
                 ＞
               </button>
@@ -209,26 +211,31 @@ const ProjectDetail = ({ name, detailStatus }) => {
                 <p>DB : MongoDB</p>
                 <br />
                 <li className="text-lg">소스코드</li>
-                <p>
-                  <ul className="list-disc ml-1">
-                    <li className="text-base">React</li>
+
+                <ul className="list-disc ml-1">
+                  <li className="text-base">React</li>
+                  <p>
                     github :{" "}
                     <a
                       className="underline text-slate-400"
                       href="https://github.com/endyd9/OiMarket-client"
+                      target="_blank"
                     >
                       소스코드 바로가기
                     </a>
-                    <li className="text-base">ALL</li>
+                  </p>
+                  <li className="text-base">ALL</li>
+                  <p>
                     github :{" "}
                     <a
                       className="underline text-slate-400"
                       href="https://github.com/endyd9/OI-Market"
+                      target="_blank"
                     >
                       소스코드 바로가기
                     </a>
-                  </ul>
-                </p>
+                  </p>
+                </ul>
                 <br />
               </ul>
             </div>

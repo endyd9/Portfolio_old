@@ -12,15 +12,15 @@ function App() {
   const getPage = () => {
     switch (page) {
       case "home":
-        return <Home></Home>;
+        return <Home />;
       case "skill":
-        return <Skill></Skill>;
+        return <Skill />;
       case "project":
-        return <Project></Project>;
+        return <Project />;
       case "about":
-        return <About></About>;
+        return <About />;
       case "contect":
-        return <Contect></Contect>;
+        return <Contect />;
     }
   };
   return (
