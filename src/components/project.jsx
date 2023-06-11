@@ -28,7 +28,7 @@ const Project = () => {
           >
             <img
               className="hover:animate-bounce"
-              src="/img/drawing/7.png"
+              src="https://endyd9.github.io/Portfolio//img/drawing/7.png"
               alt="DrawingGame"
             />
             <p>DrawingGame</p>
@@ -39,7 +39,7 @@ const Project = () => {
           >
             <img
               className="hover:animate-bounce"
-              src="/img/oi/로그인 안한 메인.png"
+              src="https://endyd9.github.io/Portfolio//img/oi/로그인 안한 메인.png"
               alt=""
             />
             <p>Oi-Market</p>

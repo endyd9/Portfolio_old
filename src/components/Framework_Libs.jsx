@@ -6,7 +6,7 @@ const FrameWorkAndLibs = () => {
         <figure className="w-24 text-center">
           <img
             className="bg-white w-full h-24 rounded-full hover:scale-150 transition-transform"
-            src="/img/skill/react.png"
+            src="https://endyd9.github.io/Portfolio//img/skill/react.png"
             alt="react"
           />
           <figcaption>React.JS</figcaption>
@@ -14,7 +14,7 @@ const FrameWorkAndLibs = () => {
         <figure className="w-24 text-center">
           <img
             className="bg-white w-full rounded-full hover:scale-150 transition-transform"
-            src="/img/skill/next.png"
+            src="https://endyd9.github.io/Portfolio//img/skill/next.png"
             alt="next"
           />
           <figcaption>Next.JS</figcaption>
@@ -25,7 +25,7 @@ const FrameWorkAndLibs = () => {
         <figure className="w-24 text-center">
           <img
             className="bg-white w-full rounded-full hover:scale-150 transition-transform"
-            src="/img/skill/express.svg"
+            src="https://endyd9.github.io/Portfolio//img/skill/express.svg"
             alt="express"
           />
           <figcaption>Express.JS</figcaption>

@@ -6,7 +6,7 @@ const Tried = () => {
         <figure className="w-1/4 text-center items-center mb-5">
           <img
             className="bg-white ml-14 w-24 h-24 rounded-full hover:scale-150 transition-transform"
-            src="/img/skill/py.png"
+            src="https://endyd9.github.io/Portfolio//img/skill/py.png"
             alt="py"
           />
           <figcaption>Python</figcaption>
@@ -14,7 +14,7 @@ const Tried = () => {
         <figure className="w-1/4 text-center items-center mb-5">
           <img
             className="bg-white ml-14 w-24 h-24 rounded-full hover:scale-150 transition-transform"
-            src="/img/skill/flask.png"
+            src="https://endyd9.github.io/Portfolio//img/skill/flask.png"
             alt="flask"
           />
           <figcaption>Flask</figcaption>
@@ -22,7 +22,7 @@ const Tried = () => {
         <figure className="w-1/4 text-center items-center mb-5">
           <img
             className="bg-white ml-14 w-24 h-24 rounded-full hover:scale-150 transition-transform"
-            src="/img/skill/bs4.png"
+            src="https://endyd9.github.io/Portfolio//img/skill/bs4.png"
             alt="bs4"
           />
           <figcaption>BS4</figcaption>
@@ -30,7 +30,7 @@ const Tried = () => {
         <figure className="w-1/4 text-center items-center mb-5">
           <img
             className="bg-white ml-14 w-24 h-24 rounded-full hover:scale-150 transition-transform"
-            src="/img/skill/dart.png"
+            src="https://endyd9.github.io/Portfolio//img/skill/dart.png"
             alt="dart"
           />
           <figcaption>Dart</figcaption>
@@ -38,7 +38,7 @@ const Tried = () => {
         <figure className="w-1/4 text-center items-center">
           <img
             className="bg-white ml-14 w-24 h-24 rounded-full hover:scale-150 transition-transform"
-            src="/img/skill/scss.jpg"
+            src="https://endyd9.github.io/Portfolio//img/skill/scss.jpg"
             alt="scss"
           />
           <figcaption>SCSS</figcaption>
@@ -46,7 +46,7 @@ const Tried = () => {
         <figure className="w-1/4 text-center items-center">
           <img
             className="bg-white ml-14 w-24 h-24 rounded-full hover:scale-150 transition-transform"
-            src="/img/skill/java.png"
+            src="https://endyd9.github.io/Portfolio/img/skill/java.png"
             alt="java"
           />
           <figcaption>JAVA</figcaption>
@@ -54,7 +54,7 @@ const Tried = () => {
         <figure className="w-1/4 text-center items-center">
           <img
             className="bg-white ml-14 w-24 h-24 rounded-full hover:scale-150 transition-transform"
-            src="/img/skill/android.png"
+            src="https://endyd9.github.io/Portfolio//img/skill/android.png"
             alt="android"
           />
           <figcaption>Android</figcaption>

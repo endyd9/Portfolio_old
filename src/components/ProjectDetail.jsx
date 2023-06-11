@@ -60,12 +60,30 @@ const ProjectDetail = ({ name, detailStatus }) => {
                 id="container"
                 className="transition-all flex flex-nowrap overflow-x-hidden w-[100%]"
               >
-                <img src="/img/drawing/1.png" alt="" />
-                <img src="/img/drawing/2.png" alt="" />
-                <img src="/img/drawing/3.png" alt="" />
-                <img src="/img/drawing/4.png" alt="" />
-                <img src="/img/drawing/5.png" alt="" />
-                <img src="/img/drawing/6.png" alt="" />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/drawing/1.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/drawing/2.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/drawing/3.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/drawing/4.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/drawing/5.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/drawing/6.png"
+                  alt=""
+                />
               </div>
               <p className="mt-8">
                 {description?.length ? description[dcount] : null}
@@ -163,23 +181,74 @@ const ProjectDetail = ({ name, detailStatus }) => {
                 id="container"
                 className="transition-all flex flex-nowrap overflow-x-hidden"
               >
-                <img src="/img/oi/로그인 안한 메인.png" alt="" />
-                <img src="/img/oi/로그인.png" alt="" />
-                <img src="/img/oi/회원가입 폼.png" alt="" />
-                <img src="/img/oi/로그인 한 메인.png" alt="" />
-                <img src="/img/oi/결과물 없는 검색.png" alt="" />
-                <img src="/img/oi/결과물 있는 검색.png" alt="" />
-                <img src="/img/oi/글쓰기.png" alt="" />
-                <img src="/img/oi/메세지 리스트.png" alt="" />
-                <img src="/img/oi/메세지 내용.png" alt="" />
-                <img src="/img/oi/마이페이지.png" alt="" />
-                <img src="/img/oi/회원정보 수정.png" alt="" />
-                <img src="/img/oi/내 상품.png" alt="" />
-                <img src="/img/oi/글 수정.png" alt="" />
-                <img src="/img/oi/상품상태변경1.png" alt="" />
-                <img src="/img/oi/상품상태변경3.png" alt="" />
-                <img src="/img/oi/남에 상품.png" alt="" />
-                <img src="/img/oi/남에페이지.png" alt="" />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/oi/로그인 안한 메인.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/oi/로그인.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/oi/회원가입 폼.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/oi/로그인 한 메인.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/oi/결과물 없는 검색.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/oi/결과물 있는 검색.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/oi/글쓰기.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/oi/메세지 리스트.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/oi/메세지 내용.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/oi/마이페이지.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/oi/회원정보 수정.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/oi/내 상품.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/oi/글 수정.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/oi/상품상태변경1.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/oi/상품상태변경3.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/oi/남에 상품.png"
+                  alt=""
+                />
+                <img
+                  src="https://endyd9.github.io/Portfolio//img/oi/남에페이지.png"
+                  alt=""
+                />
               </div>
               <p className="mt-7">
                 {description?.length ? description[dcount] : null}

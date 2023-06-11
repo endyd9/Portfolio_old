@@ -7,7 +7,7 @@ const Home = () => {
   const showText = async () => {
     let cnt = 0;
     const inner = "성장중인 개발자 김두용입니다.";
-    while (cnt != inner.length) {
+    while (cnt !== inner.length) {
       setText((prev) => prev + inner[cnt]);
       await new Promise((res) => setTimeout(res, 150));
       cnt += 1;
@@ -32,7 +32,7 @@ const Home = () => {
       ) : null}
       <img
         className="fixed right-0 -z-20 bg-cover"
-        src="/img/main.jpg"
+        src="https://endyd9.github.io/Portfolio/img/main.jpg"
         alt="메인사진"
       />
     </div>

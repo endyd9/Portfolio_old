@@ -6,7 +6,7 @@ const Languages = () => {
         <figure className="w-24 text-center">
           <img
             className="bg-white w-full rounded-full hover:scale-150 transition-transform"
-            src="/img/skill/html.png"
+            src="https://endyd9.github.io/Portfolio//img/skill/html.png"
             alt="html"
           />
           <figcaption>HTML</figcaption>
@@ -14,7 +14,7 @@ const Languages = () => {
         <figure className="w-24 text-center">
           <img
             className="bg-white w-full rounded-full hover:scale-150 transition-transform"
-            src="/img/skill/css.png"
+            src="https://endyd9.github.io/Portfolio//img/skill/css.png"
             alt="css"
           />
           <figcaption>CSS</figcaption>
@@ -22,7 +22,7 @@ const Languages = () => {
         <figure className="w-24 text-center">
           <img
             className="bg-white w-full rounded-full hover:scale-150 transition-transform"
-            src="/img/skill/js.png"
+            src="https://endyd9.github.io/Portfolio//img/skill/js.png"
             alt="js"
           />
           <figcaption>JS</figcaption>
@@ -33,7 +33,7 @@ const Languages = () => {
         <figure className="w-24 text-center">
           <img
             className="bg-white w-full rounded-full hover:scale-150 transition-transform"
-            src="/img/skill/node.png"
+            src="https://endyd9.github.io/Portfolio//img/skill/node.png"
             alt="node"
           />
           <figcaption>Node.JS</figcaption>
@@ -41,7 +41,7 @@ const Languages = () => {
         <figure className="w-24 text-center">
           <img
             className="bg-white w-full rounded-full hover:scale-150 transition-transform"
-            src="/img/skill/ts.png"
+            src="https://endyd9.github.io/Portfolio//img/skill/ts.png"
             alt="ts"
           />
           <figcaption>TypeScript</figcaption>

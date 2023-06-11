@@ -6,7 +6,7 @@ const DB = () => {
         <figure className="w-24 text-center">
           <img
             className="bg-white w-full rounded-full hover:scale-150 transition-transform"
-            src="/img/skill/mysql.png"
+            src="https://endyd9.github.io/Portfolio//img/skill/mysql.png"
             alt="mysql"
           />
           <figcaption>MySql</figcaption>
@@ -17,7 +17,7 @@ const DB = () => {
         <figure className="w-24 text-center">
           <img
             className="bg-white w-full rounded-full hover:scale-150 transition-transform"
-            src="/img/skill/mongo.png"
+            src="https://endyd9.github.io/Portfolio//img/skill/mongo.png"
             alt="mongo"
           />
           <figcaption>MongoDB</figcaption>
