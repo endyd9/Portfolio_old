@@ -24,10 +24,16 @@ const Project = () => {
         <div className="animate-[intro_1s] mt-36 flex flex-wrap justify-center ">
           <div
             onClick={() => showDetail("Drawing Game")}
+            onMouseEnter={() =>
+              document.querySelector("#draw").classList.add("animate-bounce")
+            }
+            onMouseLeave={() =>
+              document.querySelector("#draw").classList.remove("animate-bounce")
+            }
             className="w-1/3 mx-14 my-3 cursor-pointer"
           >
             <img
-              className="hover:animate-bounce"
+              id="draw"
               src="https://endyd9.github.io/Portfolio//img/drawing/7.png"
               alt="DrawingGame"
             />
@@ -35,10 +41,16 @@ const Project = () => {
           </div>
           <div
             onClick={() => showDetail("Oi-Market")}
+            onMouseEnter={() =>
+              document.querySelector("#oi").classList.add("animate-bounce")
+            }
+            onMouseLeave={() =>
+              document.querySelector("#oi").classList.remove("animate-bounce")
+            }
             className="w-1/3 mx-14 my-3 cursor-pointer"
           >
             <img
-              className="hover:animate-bounce"
+              id="oi"
               src="https://endyd9.github.io/Portfolio//img/oi/로그인 안한 메인.png"
               alt=""
             />
