@@ -89,7 +89,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
                 {description?.length ? description[dcount] : null}
               </p>
             </div>
-            <div className="bg-white my-10 w-[50vw] h-[35vh]  relative rounded-md mx-5">
+            <div className="bg-white my-10 w-[50vw] h-[50vh]  relative rounded-md mx-5">
               <ul className="mt-5 ml-8 list-disc text-start text-sm">
                 <li className="text-lg">프로젝트 개요</li>
                 <p>구글의 Vision API를 활용한 간단한 게임입니다.</p>
