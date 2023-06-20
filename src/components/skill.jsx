@@ -8,7 +8,7 @@ const Skill = () => {
   const [skill, setSkille] = useState("");
   return (
     <div className="mt-28 w-full h-[100%] animate-[intro_.5s] overflow-y-hidden">
-      <div className="mt-10 ml-[10%] w-[80%] h-[700px] bg-slate-400 rounded-lg">
+      <div className="mt-12 ml-[10%] w-[80%] h-[78vh] bg-slate-400 rounded-lg">
         <h1 className="pt-5 pb-5 text-4xl text-center font-bold">Skills</h1>
         <nav>
           <ul className="list-none flex flex-row justify-center space-x-5 text-xl">

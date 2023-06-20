@@ -43,7 +43,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
         ];
         return (
           <div className="pt-14 flex justify-between">
-            <div className="mt-10 w-[40vw] h-96 relative mx-5">
+            <div className="my-10 w-[50vw] h-96 relative mx-5">
               <button
                 onClick={prev}
                 className="absolute hover:scale-150 transition-transform left-3 top-48 w-8 h-8 bg-white text-2xl rounded-full"
@@ -89,7 +89,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
                 {description?.length ? description[dcount] : null}
               </p>
             </div>
-            <div className="bg-white mt-10 w-[40vw] relative rounded-md mx-5">
+            <div className="bg-white my-10 w-[50vw] relative rounded-md mx-5">
               <ul className="mt-5 ml-8 list-disc text-start text-sm">
                 <li className="text-lg">프로젝트 개요</li>
                 <p>구글의 Vision API를 활용한 간단한 게임입니다.</p>
@@ -164,7 +164,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
         ];
         return (
           <div className="pt-10 flex justify-between">
-            <div className="pt-10 w-[40vw] h-96 relative mx-5">
+            <div className="pt-10 w-[50vw] h-96 relative mx-5">
               <button
                 onClick={prev}
                 className="absolute hover:scale-150 transition-transform left-3 top-56 w-8 h-8 bg-white text-2xl rounded-full"
@@ -254,7 +254,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
                 {description?.length ? description[dcount] : null}
               </p>
             </div>
-            <div className="bg-white mt-10 w-[40vw] h-[450px] relative rounded-md mx-5">
+            <div className="bg-white mt-10 w-[50vw] h-[450px] relative rounded-md mx-5">
               <ul className="mt-5 ml-8 list-disc text-start text-sm">
                 <li className="text-lg">프로젝트 개요</li>
                 <p>React.JS와 Express.JS 를 활용한 중고거래 서비스 입니다.</p>

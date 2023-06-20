@@ -2,8 +2,8 @@ const About = () => {
   return (
     <div className="mt-36">
       <h1 className="text-4xl font-bold text-center">About</h1>
-      <div className="animate-[intro_.5s] mt-14 pt-28 w-[80vw] h-[55vh] bg-slate-300 rounded-lg flex justify-center">
-        <ul className="list-disc">
+      <div className="animate-[intro_.5s] mt-10 w-[80vw] h-[60vh] bg-slate-300 rounded-lg flex justify-center items-center">
+        <ul className="list-disc ">
           <li className="text-2xl">2016</li>
           <p>영남이공대 컴퓨터 정보과 입학</p>
           <li className="text-2xl">2020</li>
