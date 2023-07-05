@@ -39,7 +39,7 @@ const Skill = () => {
           </ul>
         </nav>
         {skill === "" ? (
-          <div className="animate-pulse text-center mt-[20%] text-4xl text-white font-bold">
+          <div className="animate-pulse text-center mt-[30vh] text-4xl text-white font-bold ">
             Select Menu
           </div>
         ) : null}

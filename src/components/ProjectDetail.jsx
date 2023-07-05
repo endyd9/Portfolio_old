@@ -46,13 +46,13 @@ const ProjectDetail = ({ name, detailStatus }) => {
             <div className="my-10 w-[50vw] h-96 mx-5">
               <button
                 onClick={prev}
-                className="absolute hover:scale-150 transition-transform left-8 top-[25vh] w-8 h-8 bg-white text-2xl rounded-full"
+                className="absolute hover:scale-150 transition-transform left-8 top-[28vh] w-8 h-8 bg-white text-2xl rounded-full"
               >
                 ＜
               </button>
               <button
                 onClick={next}
-                className="absolute hover:scale-150 transition-transform right-[42vw] top-[25vh] w-8 h-8 bg-white text-2xl rounded-full"
+                className="absolute hover:scale-150 transition-transform right-[42vw] top-[28vh] w-8 h-8 bg-white text-2xl rounded-full"
               >
                 ＞
               </button>
@@ -123,6 +123,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
                 <p>사용했습니다.</p>
                 <br />
                 <li className="text-lg">사용언어 및 프레임 워크</li>
+                <p>개발환경 : MacOS13, VScode</p>
                 <p>Frontend :HTML, CSS, JavaScript</p>
                 <p>Backend : Node.JS, Express.JS, EJS, Google Vision</p>
                 <br />
@@ -167,13 +168,13 @@ const ProjectDetail = ({ name, detailStatus }) => {
             <div className="pt-10 w-[50vw] h-96 mx-5">
               <button
                 onClick={prev}
-                className="absolute hover:scale-150 transition-transform left-10 top-[25vh] w-8 h-8 bg-white text-2xl rounded-full"
+                className="absolute hover:scale-150 transition-transform left-9 top-[28vh] w-8 h-8 bg-white text-2xl rounded-full"
               >
                 ＜
               </button>
               <button
                 onClick={next}
-                className="absolute hover:scale-150 transition-transform right-[41.5vw] top-[25vh] w-8 h-8 bg-white text-2xl rounded-full"
+                className="absolute hover:scale-150 transition-transform right-[42.5vw] top-[28vh] w-8 h-8 bg-white text-2xl rounded-full"
               >
                 ＞
               </button>
@@ -275,6 +276,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
                 <p>통신방식으로 채팅 기능을 구현하였습니다.</p>
                 <br />
                 <li className="text-lg">사용언어 및 프레임 워크</li>
+                <p>개발환경 : MacOS13, VScode</p>
                 <p>Frontend : JavaScript, React.JS </p>
                 <p>Backend : Node.JS, Express.JS, Socket.io</p>
                 <p>DB : MongoDB</p>
