@@ -42,23 +42,23 @@ const ProjectDetail = ({ name, detailStatus }) => {
           "게임결과",
         ];
         return (
-          <div className="pt-14 flex justify-between">
-            <div className="my-10 w-[50vw] h-96 mx-5">
+          <div className="pt-10 flex xl:flex-row flex-col xl:justify-between items-center justify-center ">
+            <div className="w-[50vw] h-96 mx-5 mr-[32.5vw] xl:mr-0 mt-10 xl:mt-0">
               <button
                 onClick={prev}
-                className="absolute hover:scale-150 transition-transform left-8 top-[28vh] w-8 h-8 bg-white text-2xl rounded-full"
+                className="absolute hover:scale-150 transition-transform xl:left-7 xl:top-[28vh] top-72 left-16 w-8 h-8 bg-white text-2xl rounded-full"
               >
                 ＜
               </button>
               <button
                 onClick={next}
-                className="absolute hover:scale-150 transition-transform right-[42vw] top-[28vh] w-8 h-8 bg-white text-2xl rounded-full"
+                className="absolute hover:scale-150 transition-transform xl:right-[41.5vw] xl:top-[28vh] top-72 right-16 w-8 h-8 bg-white text-2xl rounded-full"
               >
                 ＞
               </button>
               <div
                 id="container"
-                className="transition-all flex flex-nowrap overflow-x-hidden w-[100%]"
+                className="transition-all flex flex-nowrap overflow-x-hidden xl:w-[100%] w-[80vw]"
               >
                 <img
                   src="https://endyd9.github.io/Portfolio//img/drawing/1.png"
@@ -85,15 +85,17 @@ const ProjectDetail = ({ name, detailStatus }) => {
                   alt=""
                 />
               </div>
-              <p className="mt-4">
+              <p className="mt-4 ml-72 xl:ml-0 xl:text-sm text-2xl">
                 {description?.length ? description[dcount] : null}
               </p>
             </div>
-            <div className="bg-white my-10 w-[50vw] h-[50vh]  relative rounded-md mx-5">
+            <div className="bg-white xl:my-28 my-40 xl:mt-10 xl:w-[50vw] xl:min-h[50vh]  relative rounded-md mx-5">
               <ul className="mt-5 ml-8 list-disc text-start text-sm">
-                <li className="text-lg">프로젝트 개요</li>
-                <p>구글의 Vision API를 활용한 간단한 게임입니다.</p>
-                <p>
+                <li className="xl:text-lg text-4xl">프로젝트 개요</li>
+                <p className="xl:text-sm text-2xl">
+                  구글의 Vision API를 활용한 간단한 게임입니다.
+                </p>
+                <p className="xl:text-sm text-2xl">
                   NomardCoder의{" "}
                   <a
                     className="underline text-slate-400"
@@ -104,31 +106,37 @@ const ProjectDetail = ({ name, detailStatus }) => {
                   </a>{" "}
                   강의를 수강하고,
                 </p>
-                <p>
+                <p className="xl:text-sm text-2xl">
                   이미지 인식AI를 활용하면 게임으로 발전시킬 수 있을거 같아
                   시작한 프로젝트 입니다.
                 </p>
-                <p>
+                <p className="xl:text-sm text-2xl">
                   프론트는 강의소스를 활용하여 EJS로 옮겨 SSR방식으로
                   구현하였고,
                 </p>
-                <p>
+                <p className="xl:text-sm text-2xl">
                   백엔드는 Express.JS로 서버를 구축하여 프론트에서 답안 체크
                   요청을
                 </p>
-                <p>
+                <p className="xl:text-sm text-2xl">
                   받으면 구글 Vision을 사용해 유저의 그림을 라벨링하여 돌려주는
                   방식을
                 </p>
-                <p>사용했습니다.</p>
+                <p className="xl:text-sm text-2xl">사용했습니다.</p>
                 <br />
-                <li className="text-lg">사용언어 및 프레임 워크</li>
-                <p>개발환경 : MacOS13, VScode</p>
-                <p>Frontend :HTML, CSS, JavaScript</p>
-                <p>Backend : Node.JS, Express.JS, EJS, Google Vision</p>
+                <li className="xl:text-lg text-4xl">사용언어 및 프레임 워크</li>
+                <p className="xl:text-sm text-2xl">
+                  개발환경 : MacOS13, VScode
+                </p>
+                <p className="xl:text-sm text-2xl">
+                  Frontend :HTML, CSS, JavaScript
+                </p>
+                <p className="xl:text-sm text-2xl">
+                  Backend : Node.JS, Express.JS, EJS, Google Vision
+                </p>
                 <br />
-                <li className="text-lg">소스코드</li>
-                <p>
+                <li className="xl:text-lg text-4xl">소스코드</li>
+                <p className="xl:text-sm text-2xl">
                   github :{" "}
                   <a
                     className="underline text-slate-400"
@@ -164,23 +172,23 @@ const ProjectDetail = ({ name, detailStatus }) => {
           "다른 이용자의 마이페이지",
         ];
         return (
-          <div className="pt-10 flex justify-between">
-            <div className="pt-10 w-[50vw] h-96 mx-5">
+          <div className="pt-10 flex xl:flex-row flex-col xl:justify-between items-center justify-center ">
+            <div className="w-[50vw] h-96 mx-5 mr-[32.5vw] xl:mr-0 mt-10 xl:mt-0">
               <button
                 onClick={prev}
-                className="absolute hover:scale-150 transition-transform left-9 top-[28vh] w-8 h-8 bg-white text-2xl rounded-full"
+                className="absolute hover:scale-150 transition-transform xl:left-9 xl:top-[30vh] top-80 left-16 w-8 h-8 bg-white text-2xl rounded-full"
               >
                 ＜
               </button>
               <button
                 onClick={next}
-                className="absolute hover:scale-150 transition-transform right-[42.5vw] top-[28vh] w-8 h-8 bg-white text-2xl rounded-full"
+                className="absolute hover:scale-150 transition-transform xl:right-[42.5vw] xl:top-[30vh] top-80 right-14 w-8 h-8 bg-white text-2xl rounded-full"
               >
                 ＞
               </button>
               <div
                 id="container"
-                className="transition-all flex flex-nowrap overflow-x-hidden"
+                className="transition-all flex flex-nowrap overflow-x-hidden xl:w-[100%] w-[80vw]"
               >
                 <img
                   src="https://endyd9.github.io/Portfolio//img/oi/로그인 안한 메인.png"
@@ -251,41 +259,53 @@ const ProjectDetail = ({ name, detailStatus }) => {
                   alt=""
                 />
               </div>
-              <p className="mt-4">
+              <p className="mt-4 ml-72 xl:ml-0 xl:text-sm text-2xl">
                 {description?.length ? description[dcount] : null}
               </p>
             </div>
-            <div className="bg-white mt-10 w-[50vw] h-[50vh] relative rounded-md mx-5">
+            <div className="bg-white xl:mt-10 mt-48 xl:w-[50vw] w-[80vw] xl:min-h[50vh]  xl:relative rxl:ounded-md xl:mx-5">
               <ul className="mt-5 ml-8 list-disc text-start text-sm">
-                <li className="text-lg">프로젝트 개요</li>
-                <p>React.JS와 Express.JS 를 활용한 중고거래 서비스 입니다.</p>
-                <p>React.JS를 배우고 손에 익히기 위해 진행한 프로젝트입니다.</p>
-                <p>
+                <li className="xl:text-lg text-4xl">프로젝트 개요</li>
+                <p className="xl:text-sm text-2xl">
+                  React.JS와 Express.JS 를 활용한 중고거래 서비스 입니다.
+                </p>
+                <p className="xl:text-sm text-2xl">
+                  React.JS를 배우고 손에 익히기 위해 진행한 프로젝트입니다.
+                </p>
+                <p className="xl:text-sm text-2xl">
                   백엔드는 DB의 CRUD만 담당하고 라우팅은 ReactRoute를 활용하여
                   CSR로
                 </p>
-                <p>구현하였습니다.</p>
-                <p>
+                <p className="xl:text-sm text-2xl">구현하였습니다.</p>
+                <p className="xl:text-sm text-2xl">
                   프론트는 React.JS를 활용한 SPA로 구현하여, 회원가입, 로그인,
                   게시글 작성,
                 </p>
-                <p>
+                <p className="xl:text-sm text-2xl">
                   게시글 검색 등 기본적인 기능들을 구현하였고, Socket.io를
                   활용하여 실시간
                 </p>
-                <p>통신방식으로 채팅 기능을 구현하였습니다.</p>
+                <p className="xl:text-sm text-2xl">
+                  통신방식으로 채팅 기능을 구현하였습니다.
+                </p>
                 <br />
-                <li className="text-lg">사용언어 및 프레임 워크</li>
-                <p>개발환경 : MacOS13, VScode</p>
-                <p>Frontend : JavaScript, React.JS </p>
-                <p>Backend : Node.JS, Express.JS, Socket.io</p>
-                <p>DB : MongoDB</p>
+                <li className="xl:text-lg text-4xl">사용언어 및 프레임 워크</li>
+                <p className="xl:text-sm text-2xl">
+                  개발환경 : MacOS13, VScode
+                </p>
+                <p className="xl:text-sm text-2xl">
+                  Frontend : JavaScript, React.JS{" "}
+                </p>
+                <p className="xl:text-sm text-2xl">
+                  Backend : Node.JS, Express.JS, Socket.io
+                </p>
+                <p className="xl:text-sm text-2xl">DB : MongoDB</p>
                 <br />
-                <li className="text-lg">소스코드</li>
 
+                <li className="xl:text-lg text-4xl">소스코드</li>
                 <ul className="list-disc ml-1">
-                  <li className="text-base">React</li>
-                  <p>
+                  <li className="xl:text-base text-2xl">Frontend</li>
+                  <p className="xl:text-sm text-2xl">
                     github :{" "}
                     <a
                       className="underline text-slate-400"
@@ -295,15 +315,26 @@ const ProjectDetail = ({ name, detailStatus }) => {
                       소스코드 바로가기
                     </a>
                   </p>
-                  <li className="text-base">ALL</li>
-                  <p>
+                  <li className="xl:text-base text-2xl">Backend</li>
+                  <p className="xl:text-sm text-2xl">
                     github :{" "}
                     <a
                       className="underline text-slate-400"
-                      href="https://github.com/endyd9/OI-Market"
+                      href="https://github.com/endyd9/Oimarket-server"
                       target="_blank"
                     >
                       소스코드 바로가기
+                    </a>
+                  </p>
+                  <li className="xl:text-base text-2xl">Page</li>
+                  <p className="xl:text-sm text-2xl">
+                    Deploy :{" "}
+                    <a
+                      target="_blank"
+                      href="https://endyd9.github.io/OiMarket-client/"
+                      className="underline text-slate-400"
+                    >
+                      페이지 바로가기
                     </a>
                   </p>
                 </ul>
@@ -315,7 +346,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
     }
   };
   return (
-    <div className="relative animate-[intro_1s] mt-10 bg-slate-300 w-[80vw] h-[68vh] rounded-md">
+    <div className="relative animate-[intro_1s] mt-10 bg-slate-300 xl:w-[80vw] xl:h-[68vh] h-[100%] w-[90vw] rounded-md">
       <button
         onClick={() => detailStatus()}
         className="absolute text-2xl mt-5 right-6"
