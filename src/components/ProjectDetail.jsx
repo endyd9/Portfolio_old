@@ -43,7 +43,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
         ];
         return (
           <div className="pt-10 flex xl:flex-row flex-col xl:justify-between items-center justify-center ">
-            <div className="w-[50vw] h-96 mx-5 mr-[32.5vw] xl:mr-0 mt-10 xl:mt-0">
+            <div className="w-[50vw] h-96 xl:mx-10 mx-5 mr-[32.5vw] xl:mr-0 mt-10 xl:-mt-10">
               <button
                 onClick={prev}
                 className="absolute hover:scale-150 transition-transform xl:left-7 xl:top-[28vh] top-72 left-16 w-8 h-8 bg-white text-2xl rounded-full"
@@ -89,7 +89,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
                 {description?.length ? description[dcount] : null}
               </p>
             </div>
-            <div className="bg-white xl:my-28 my-40 xl:mt-10 xl:w-[50vw] xl:min-h[50vh]  relative rounded-md mx-5">
+            <div className="bg-white xl:my-28 my-40 xl:mt-20 xl:w-[50vw] xl:min-h[50vh]  relative rounded-md mx-5">
               <ul className="mt-5 ml-8 list-disc text-start text-sm">
                 <li className="xl:text-lg text-4xl">프로젝트 개요</li>
                 <p className="xl:text-sm text-2xl">
