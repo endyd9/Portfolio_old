@@ -7,39 +7,41 @@ import Tried from "./Tried";
 const Skill = () => {
   const [skill, setSkille] = useState("");
   return (
-    <div className="mt-28 w-full h-[100%] animate-[intro_.5s] overflow-y-hidden">
-      <div className="mt-12 ml-[10%] w-[80%] h-[78vh] bg-slate-400 rounded-lg">
-        <h1 className="pt-5 pb-5 text-4xl text-center font-bold">Skills</h1>
+    <div className="xl:mt-28 mt-48 w-full xl:h-[100%] animate-[intro_.5s] overflow-y-hidden">
+      <div className="mt-12 ml-[10%] w-[80%] xl:h-[78vh] h-[75vh] bg-slate-400 rounded-lg">
+        <h1 className="xl:py-5 py-10 xl:text-4xl text-6xl text-center font-bold">
+          Skills
+        </h1>
         <nav>
           <ul className="list-none flex flex-row justify-center space-x-5 text-xl">
             <li
               onClick={() => setSkille("l")}
-              className="hover:font-bold cursor-pointer"
+              className="hover:font-bold cursor-pointer xl:text-base text-4xl"
             >
               Languages
             </li>
             <li
               onClick={() => setSkille("d")}
-              className="hover:font-bold cursor-pointer"
+              className="hover:font-bold cursor-pointer xl:text-base text-4xl"
             >
               DB
             </li>
             <li
               onClick={() => setSkille("f")}
-              className="hover:font-bold cursor-pointer"
+              className="hover:font-bold cursor-pointer xl:text-base text-4xl"
             >
               FrameWork and Libarys
             </li>
             <li
               onClick={() => setSkille("o")}
-              className="hover:font-bold cursor-pointer"
+              className="hover:font-bold cursor-pointer xl:text-base text-4xl"
             >
               Tried
             </li>
           </ul>
         </nav>
         {skill === "" ? (
-          <div className="animate-pulse text-center mt-[30vh] text-4xl text-white font-bold ">
+          <div className="animate-pulse text-center mt-[30vh] xl:text-4xl text-6xl text-white font-bold ">
             Select Menu
           </div>
         ) : null}

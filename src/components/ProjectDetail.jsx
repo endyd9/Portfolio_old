@@ -46,13 +46,13 @@ const ProjectDetail = ({ name, detailStatus }) => {
             <div className="w-[50vw] h-96 xl:mx-10 mx-5 mr-[32.5vw] xl:mr-0 mt-10 xl:-mt-10">
               <button
                 onClick={prev}
-                className="absolute hover:scale-150 transition-transform xl:left-7 xl:top-[28vh] top-72 left-16 w-8 h-8 bg-white text-2xl rounded-full"
+                className="absolute hover:scale-150 transition-transform xl:left-7 xl:top-[28vh] top-72 left-14 xl:w-8 xl:h-8 w-16 h-16 bg-white xl:text-2xl text-5xl rounded-full"
               >
                 ＜
               </button>
               <button
                 onClick={next}
-                className="absolute hover:scale-150 transition-transform xl:right-[41.5vw] xl:top-[28vh] top-72 right-16 w-8 h-8 bg-white text-2xl rounded-full"
+                className="absolute hover:scale-150 transition-transform xl:right-[41.5vw] xl:top-[28vh] top-72 right-14 xl:w-8 xl:h-8 w-16 h-16 bg-white xl:text-2xl text-5xl rounded-full"
               >
                 ＞
               </button>
@@ -89,8 +89,8 @@ const ProjectDetail = ({ name, detailStatus }) => {
                 {description?.length ? description[dcount] : null}
               </p>
             </div>
-            <div className="bg-white xl:my-28 my-40 xl:mt-20 xl:w-[50vw] xl:min-h[50vh]  relative rounded-md mx-5">
-              <ul className="mt-5 ml-8 list-disc text-start text-sm">
+            <div className="bg-white xl:my-28 my-40 xl:mt-20 xl:w-[50vw] w-[80vw] xl:min-h[50vh]  relative rounded-md mx-5">
+              <ul className="mt-5 ml-8 list-disc text-start text-sm px-3">
                 <li className="xl:text-lg text-4xl">프로젝트 개요</li>
                 <p className="xl:text-sm text-2xl">
                   구글의 Vision API를 활용한 간단한 게임입니다.
@@ -176,13 +176,13 @@ const ProjectDetail = ({ name, detailStatus }) => {
             <div className="w-[50vw] h-96 mx-5 mr-[32.5vw] xl:mr-0 mt-10 xl:mt-0">
               <button
                 onClick={prev}
-                className="absolute hover:scale-150 transition-transform xl:left-9 xl:top-[30vh] top-80 left-16 w-8 h-8 bg-white text-2xl rounded-full"
+                className="absolute hover:scale-150 transition-transform xl:left-9 xl:top-[30vh] top-80 left-14 xl:w-8 xl:h-8 w-16 h-16 bg-white xl:text-2xl text-5xl rounded-full"
               >
                 ＜
               </button>
               <button
                 onClick={next}
-                className="absolute hover:scale-150 transition-transform xl:right-[42.5vw] xl:top-[30vh] top-80 right-14 w-8 h-8 bg-white text-2xl rounded-full"
+                className="absolute hover:scale-150 transition-transform xl:right-[42.5vw] xl:top-[30vh] top-80 right-14 xl:w-8 xl:h-8 w-16 h-16 bg-white xl:text-2xl text-5xl rounded-full"
               >
                 ＞
               </button>
@@ -263,8 +263,8 @@ const ProjectDetail = ({ name, detailStatus }) => {
                 {description?.length ? description[dcount] : null}
               </p>
             </div>
-            <div className="bg-white xl:mt-10 mt-48 xl:w-[50vw] w-[80vw] xl:min-h[50vh]  xl:relative rxl:ounded-md xl:mx-5">
-              <ul className="mt-5 ml-8 list-disc text-start text-sm">
+            <div className="bg-white xl:mt-10 mt-48 xl:w-[50vw] w-[80vw] xl:min-h[50vh]  xl:relative rounded-md xl:mx-5">
+              <ul className="mt-5 ml-8 list-disc text-start text-sm px-5">
                 <li className="xl:text-lg text-4xl">프로젝트 개요</li>
                 <p className="xl:text-sm text-2xl">
                   React.JS와 Express.JS 를 활용한 중고거래 서비스 입니다.
@@ -349,7 +349,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
     <div className="relative animate-[intro_1s] mt-10 bg-slate-300 xl:w-[80vw] xl:h-[68vh] h-[100%] w-[90vw] rounded-md">
       <button
         onClick={() => detailStatus()}
-        className="absolute text-2xl mt-5 right-6"
+        className="absolute xl:text-2xl text-4xl mt-5 right-6"
       >
         ❌
       </button>

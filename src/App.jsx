@@ -25,15 +25,15 @@ function App() {
   };
   return (
     <div className="App">
-      <header className="fixed -z-0 flex justify-between h-28 w-full bg-black text-gray-300">
+      <header className="fixed z-10 flex justify-between xl:h-28 h-48 w-full bg-black text-gray-300">
         <h1
           onClick={() => setPage("home")}
-          className="text-5xl mt-6 ml-10 cursor-pointer"
+          className="xl:text-5xl xl:mt-6 xl:ml-10 text-8xl mt-10 ml-10 cursor-pointer"
         >
           Portfolio
         </h1>
         <nav>
-          <ul className="list-none flex flex-row mt-10 mr-10 text-2xl space-x-10">
+          <ul className="list-none flex flex-row xl:mt-10 xl:mr-10 xl:text-2xl xl:space-x-10 mt-16 mr-5 text-[45px] space-x-5">
             <li
               onClick={() => setPage("skill")}
               className="cursor-pointer hover:text-white"
