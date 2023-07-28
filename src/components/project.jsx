@@ -17,7 +17,7 @@ const Project = () => {
   };
   return (
     <div className="animate-[intro_.5s] lg:mt-32 mt-56 text-center">
-      <h1 className="mt-5 lg:text-4xl text-6xl font-bold">{title}</h1>
+      <h1 className="mt-5 lg:text-4xl text-8xl font-bold">{title}</h1>
       {detail ? (
         <ProjectDetail name={name} detailStatus={detailStatus} />
       ) : (

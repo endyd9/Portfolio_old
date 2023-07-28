@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
+import { isMobile } from "../App";
 
 const ProjectDetail = ({ name, detailStatus }) => {
+  let buttonPosition;
   const [slider, setSlider] = useState(0);
   const [dcount, setDcount] = useState(0);
   let description;
@@ -33,6 +35,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
   const project = () => {
     switch (name) {
       case "Drawing Game":
+        buttonPosition = isMobile ? "lg:top-[27vh]" : "lg:top-[30vh]";
         description = [
           "시작화면",
           "게임화면",
@@ -46,13 +49,13 @@ const ProjectDetail = ({ name, detailStatus }) => {
             <div className="w-[50vw] h-96 lg:mx-10 mx-5 mr-[32.5vw] lg:mr-0 mt-10 lg:-mt-10">
               <button
                 onClick={prev}
-                className="absolute hover:scale-150 transition-transform lg:left-7 lg:top-[28vh] top-72 left-14 lg:w-8 lg:h-8 w-16 h-16 bg-white lg:text-2xl text-5xl rounded-full"
+                className={`absolute lg:hover:scale-150  transition-transform 2xl:left-[3vw] lg:left-[3.5vw] ${buttonPosition} top-72 left-14 lg:w-8 lg:h-8 w-16 h-16 bg-white lg:text-2xl text-5xl rounded-full`}
               >
                 ＜
               </button>
               <button
                 onClick={next}
-                className="absolute hover:scale-150 transition-transform lg:right-[41.5vw] lg:top-[28vh] top-72 right-14 lg:w-8 lg:h-8 w-16 h-16 bg-white lg:text-2xl text-5xl rounded-full"
+                className={`absolute lg:hover:scale-150 transition-transform lg:right-[40.7vw] ${buttonPosition}  top-72 right-14 lg:w-8 lg:h-8 w-16 h-16 bg-white lg:text-2xl text-5xl rounded-full`}
               >
                 ＞
               </button>
@@ -85,11 +88,11 @@ const ProjectDetail = ({ name, detailStatus }) => {
                   alt=""
                 />
               </div>
-              <p className="mt-4 ml-72 lg:ml-0 lg:text-sm text-2xl">
+              <p className="w-full h-full my-5 ml-36 lg:ml-0 lg:text-sm text-3xl">
                 {description?.length ? description[dcount] : null}
               </p>
             </div>
-            <div className="bg-white lg:my-28 my-40 lg:mt-20 lg:w-[50vw] w-[80vw] lg:min-h[50vh]  relative rounded-md mx-5">
+            <div className="bg-white lg:my-28 my-44 lg:mt-20 lg:w-[50vw] w-[80vw] lg:min-h[50vh]  relative rounded-md mx-5">
               <ul className="mt-5 ml-8 list-disc text-start text-sm px-3">
                 <li className="lg:text-lg text-4xl">프로젝트 개요</li>
                 <p className="lg:text-sm text-2xl">
@@ -152,6 +155,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
           </div>
         );
       case "Oi-Market":
+        buttonPosition = isMobile ? "lg:top-[30vh]" : "lg:top-[33vh]";
         description = [
           "메인 페이지",
           "로그인 페이지",
@@ -172,17 +176,17 @@ const ProjectDetail = ({ name, detailStatus }) => {
           "다른 이용자의 마이페이지",
         ];
         return (
-          <div className="pt-10 flex lg:flex-row flex-col lg:justify-between items-center justify-center ">
-            <div className="w-[50vw] h-96 mx-5 mr-[32.5vw] lg:mr-0 mt-10 lg:mt-0">
+          <div className="flex lg:flex-row flex-col lg:justify-between items-center justify-center ">
+            <div className="w-[50vw] h-96 mx-5 mr-[32.5vw] lg:mr-0 mt-10 2xl:-mt-16 lg:-mt-10">
               <button
                 onClick={prev}
-                className="absolute hover:scale-150 transition-transform lg:left-9 lg:top-[30vh] top-80 left-14 lg:w-8 lg:h-8 w-16 h-16 bg-white lg:text-2xl text-5xl rounded-full"
+                className={`absolute lg:hover:scale-150 transition-transform lg:left-9 ${buttonPosition} top-80 left-14 lg:w-8 lg:h-8 w-16 h-16 bg-white lg:text-2xl text-5xl rounded-full`}
               >
                 ＜
               </button>
               <button
                 onClick={next}
-                className="absolute hover:scale-150 transition-transform lg:right-[42.5vw] lg:top-[30vh] top-80 right-14 lg:w-8 lg:h-8 w-16 h-16 bg-white lg:text-2xl text-5xl rounded-full"
+                className={`absolute lg:hover:scale-150 transition-transform lg:right-[41.5vw] ${buttonPosition}  top-80 right-14 lg:w-8 lg:h-8 w-16 h-16 bg-white lg:text-2xl text-5xl rounded-full`}
               >
                 ＞
               </button>
@@ -259,11 +263,11 @@ const ProjectDetail = ({ name, detailStatus }) => {
                   alt=""
                 />
               </div>
-              <p className="mt-4 ml-72 lg:ml-0 lg:text-sm text-2xl">
+              <p className="w-full h-full my-5 ml-36 lg:ml-0 lg:text-sm text-3xl">
                 {description?.length ? description[dcount] : null}
               </p>
             </div>
-            <div className="bg-white lg:mt-10 mt-48 lg:w-[50vw] w-[80vw] lg:min-h[50vh]  lg:relative rounded-md lg:mx-5">
+            <div className="bg-white lg:my-28 my-48 lg:mt-20 lg:w-[50vw] w-[80vw] lg:min-h[50vh]  relative rounded-md mx-5">
               <ul className="mt-5 ml-8 list-disc text-start text-sm px-5">
                 <li className="lg:text-lg text-4xl">프로젝트 개요</li>
                 <p className="lg:text-sm text-2xl">
@@ -272,11 +276,22 @@ const ProjectDetail = ({ name, detailStatus }) => {
                 <p className="lg:text-sm text-2xl">
                   React.JS를 배우고 손에 익히기 위해 진행한 프로젝트입니다.
                 </p>
-                <p className="lg:text-sm text-2xl">
-                  백엔드는 DB의 CRUD만 담당하고 라우팅은 ReactRoute를 활용하여
-                  CSR로
-                </p>
-                <p className="lg:text-sm text-2xl">구현하였습니다.</p>
+                {isMobile ? (
+                  <>
+                    <p className="lg:text-sm text-2xl">
+                      백엔드는 DB의 CRUD만 담당하고 라우팅은 ReactRoute를
+                      활용하여 SPA로
+                    </p>
+                    <p className="lg:text-sm text-2xl">구현하였습니다.</p>
+                  </>
+                ) : (
+                  <>
+                    <p className="lg:text-sm text-2xl">
+                      백엔드는 DB의 CRUD만 담당하고 라우팅은 ReactRoute를
+                      활용하여 SPA로 구현하였습니다.
+                    </p>
+                  </>
+                )}
                 <p className="lg:text-sm text-2xl">
                   프론트는 React.JS를 활용한 SPA로 구현하여, 회원가입, 로그인,
                   게시글 작성,
@@ -301,7 +316,6 @@ const ProjectDetail = ({ name, detailStatus }) => {
                 </p>
                 <p className="lg:text-sm text-2xl">DB : MongoDB</p>
                 <br />
-
                 <li className="lg:text-lg text-4xl">소스코드</li>
                 <ul className="list-disc ml-1">
                   <li className="lg:text-base text-2xl">Frontend</li>

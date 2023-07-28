@@ -1,14 +1,9 @@
 import { useEffect, useState } from "react";
+import { isMobile } from "../App";
 
 const Home = () => {
   const [intro, setIntro] = useState(false);
   const [text, setText] = useState("");
-  const isMobile =
-    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-      navigator.userAgent
-    );
-
-  console.log(isMobile);
 
   const showText = async () => {
     let cnt = 0;

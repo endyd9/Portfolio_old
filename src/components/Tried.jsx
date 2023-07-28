@@ -4,7 +4,7 @@ const Tried = () => {
       <h2 className="lg:mt-5 mt-32 mb-16 lg:text-2xl text-5xl font-semibold">
         Tried
       </h2>
-      <div className="mt-8 flex flex-wrap items-center justify-center lg:ml-0 ml-16 animate-up">
+      <div className="mt-8 flex flex-wrap items-center justify-center lg:mr-0 mr-10 animate-up">
         <figure className="w-52 text-center items-center lg:mb-10 mb-24">
           <img
             className="bg-white ml-14 lg:w-24 lg:h-24 w-36 h-36 rounded-full hover:scale-150 transition-transform"

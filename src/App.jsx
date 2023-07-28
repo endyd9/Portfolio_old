@@ -6,6 +6,11 @@ import Project from "./components/project";
 import About from "./components/about";
 import Contect from "./components/contect";
 
+export const isMobile =
+  /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+    navigator.userAgent
+  );
+
 function App() {
   const [page, setPage] = useState("home");
 
@@ -25,15 +30,15 @@ function App() {
   };
   return (
     <div className="App">
-      <header className="fixed z-10 flex justify-between lg:h-28 h-48 w-full bg-black text-gray-300">
+      <header className="fixed z-10 flex justify-between items-center px-10 lg:h-28 h-48 w-full bg-black text-gray-300">
         <h1
           onClick={() => setPage("home")}
-          className="lg:text-[500%] xs:text-[100%] lg:mt-6 lg:ml-10 text-8xl mt-10 ml-10 cursor-pointer"
+          className="lg:text-[500%] font-thin text-8xl cursor-pointer"
         >
           Portfolio
         </h1>
         <nav>
-          <ul className="list-none flex flex-row  lg:mt-10 lg:mr-10 lg:text-2xl lg:space-x-10 mt-16 mr-5 text-[250%] space-x-5">
+          <ul className="list-none flex flex-row  lg:text-4xl lg:space-x-10 text-[300%] font-thin space-x-5">
             <li
               onClick={() => setPage("skill")}
               className="cursor-pointer hover:text-white"
