@@ -5,6 +5,10 @@ const Home = () => {
   const [text, setText] = useState("");
 
   const showText = async () => {
+    const isMobile = () =>
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      );
     let cnt = 0;
     const inner = "성장중인 개발자 김두용입니다.";
     while (cnt !== inner.length) {
@@ -32,7 +36,11 @@ const Home = () => {
       ) : null}
       <img
         className="fixed right-0 -z-20 bg-cover"
-        src="https://endyd9.github.io/Portfolio/img/main.jpg"
+        src={
+          isMobile
+            ? "https://endyd9.github.io/Portfolio/img/main2.jpg"
+            : "https://endyd9.github.io/Portfolio/img/main.jpg"
+        }
         alt="메인사진"
       />
     </div>
