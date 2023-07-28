@@ -111,7 +111,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
                   시작한 프로젝트 입니다.
                 </p>
                 <p className="xl:text-sm text-2xl">
-                  프론트는 강의소스를 활용하여 EJS로 옮겨 SSR방식으로
+                  프론트는 강의소스를 활용하여 EJS 템플릿 엔진을 사용해
                   구현하였고,
                 </p>
                 <p className="xl:text-sm text-2xl">
