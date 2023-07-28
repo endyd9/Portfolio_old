@@ -42,23 +42,23 @@ const ProjectDetail = ({ name, detailStatus }) => {
           "게임결과",
         ];
         return (
-          <div className="pt-10 flex xl:flex-row flex-col xl:justify-between items-center justify-center ">
-            <div className="w-[50vw] h-96 xl:mx-10 mx-5 mr-[32.5vw] xl:mr-0 mt-10 xl:-mt-10">
+          <div className="pt-10 flex lg:flex-row flex-col lg:justify-between items-center justify-center ">
+            <div className="w-[50vw] h-96 lg:mx-10 mx-5 mr-[32.5vw] lg:mr-0 mt-10 lg:-mt-10">
               <button
                 onClick={prev}
-                className="absolute hover:scale-150 transition-transform xl:left-7 xl:top-[28vh] top-72 left-14 xl:w-8 xl:h-8 w-16 h-16 bg-white xl:text-2xl text-5xl rounded-full"
+                className="absolute hover:scale-150 transition-transform lg:left-7 lg:top-[28vh] top-72 left-14 lg:w-8 lg:h-8 w-16 h-16 bg-white lg:text-2xl text-5xl rounded-full"
               >
                 ＜
               </button>
               <button
                 onClick={next}
-                className="absolute hover:scale-150 transition-transform xl:right-[41.5vw] xl:top-[28vh] top-72 right-14 xl:w-8 xl:h-8 w-16 h-16 bg-white xl:text-2xl text-5xl rounded-full"
+                className="absolute hover:scale-150 transition-transform lg:right-[41.5vw] lg:top-[28vh] top-72 right-14 lg:w-8 lg:h-8 w-16 h-16 bg-white lg:text-2xl text-5xl rounded-full"
               >
                 ＞
               </button>
               <div
                 id="container"
-                className="transition-all flex flex-nowrap overflow-x-hidden xl:w-[100%] w-[80vw]"
+                className="transition-all flex flex-nowrap overflow-x-hidden lg:w-[100%] w-[80vw]"
               >
                 <img
                   src="https://endyd9.github.io/Portfolio//img/drawing/1.png"
@@ -85,17 +85,17 @@ const ProjectDetail = ({ name, detailStatus }) => {
                   alt=""
                 />
               </div>
-              <p className="mt-4 ml-72 xl:ml-0 xl:text-sm text-2xl">
+              <p className="mt-4 ml-72 lg:ml-0 lg:text-sm text-2xl">
                 {description?.length ? description[dcount] : null}
               </p>
             </div>
-            <div className="bg-white xl:my-28 my-40 xl:mt-20 xl:w-[50vw] w-[80vw] xl:min-h[50vh]  relative rounded-md mx-5">
+            <div className="bg-white lg:my-28 my-40 lg:mt-20 lg:w-[50vw] w-[80vw] lg:min-h[50vh]  relative rounded-md mx-5">
               <ul className="mt-5 ml-8 list-disc text-start text-sm px-3">
-                <li className="xl:text-lg text-4xl">프로젝트 개요</li>
-                <p className="xl:text-sm text-2xl">
+                <li className="lg:text-lg text-4xl">프로젝트 개요</li>
+                <p className="lg:text-sm text-2xl">
                   구글의 Vision API를 활용한 간단한 게임입니다.
                 </p>
-                <p className="xl:text-sm text-2xl">
+                <p className="lg:text-sm text-2xl">
                   NomardCoder의{" "}
                   <a
                     className="underline text-slate-400"
@@ -106,37 +106,37 @@ const ProjectDetail = ({ name, detailStatus }) => {
                   </a>{" "}
                   강의를 수강하고,
                 </p>
-                <p className="xl:text-sm text-2xl">
+                <p className="lg:text-sm text-2xl">
                   이미지 인식AI를 활용하면 게임으로 발전시킬 수 있을거 같아
                   시작한 프로젝트 입니다.
                 </p>
-                <p className="xl:text-sm text-2xl">
+                <p className="lg:text-sm text-2xl">
                   프론트는 강의소스를 활용하여 EJS 템플릿 엔진을 사용해
                   구현하였고,
                 </p>
-                <p className="xl:text-sm text-2xl">
+                <p className="lg:text-sm text-2xl">
                   백엔드는 Express.JS로 서버를 구축하여 프론트에서 답안 체크
                   요청을
                 </p>
-                <p className="xl:text-sm text-2xl">
+                <p className="lg:text-sm text-2xl">
                   받으면 구글 Vision을 사용해 유저의 그림을 라벨링하여 돌려주는
                   방식을
                 </p>
-                <p className="xl:text-sm text-2xl">사용했습니다.</p>
+                <p className="lg:text-sm text-2xl">사용했습니다.</p>
                 <br />
-                <li className="xl:text-lg text-4xl">사용언어 및 프레임 워크</li>
-                <p className="xl:text-sm text-2xl">
+                <li className="lg:text-lg text-4xl">사용언어 및 프레임 워크</li>
+                <p className="lg:text-sm text-2xl">
                   개발환경 : MacOS13, VScode
                 </p>
-                <p className="xl:text-sm text-2xl">
+                <p className="lg:text-sm text-2xl">
                   Frontend :HTML, CSS, JavaScript
                 </p>
-                <p className="xl:text-sm text-2xl">
+                <p className="lg:text-sm text-2xl">
                   Backend : Node.JS, Express.JS, EJS, Google Vision
                 </p>
                 <br />
-                <li className="xl:text-lg text-4xl">소스코드</li>
-                <p className="xl:text-sm text-2xl">
+                <li className="lg:text-lg text-4xl">소스코드</li>
+                <p className="lg:text-sm text-2xl">
                   github :{" "}
                   <a
                     className="underline text-slate-400"
@@ -172,23 +172,23 @@ const ProjectDetail = ({ name, detailStatus }) => {
           "다른 이용자의 마이페이지",
         ];
         return (
-          <div className="pt-10 flex xl:flex-row flex-col xl:justify-between items-center justify-center ">
-            <div className="w-[50vw] h-96 mx-5 mr-[32.5vw] xl:mr-0 mt-10 xl:mt-0">
+          <div className="pt-10 flex lg:flex-row flex-col lg:justify-between items-center justify-center ">
+            <div className="w-[50vw] h-96 mx-5 mr-[32.5vw] lg:mr-0 mt-10 lg:mt-0">
               <button
                 onClick={prev}
-                className="absolute hover:scale-150 transition-transform xl:left-9 xl:top-[30vh] top-80 left-14 xl:w-8 xl:h-8 w-16 h-16 bg-white xl:text-2xl text-5xl rounded-full"
+                className="absolute hover:scale-150 transition-transform lg:left-9 lg:top-[30vh] top-80 left-14 lg:w-8 lg:h-8 w-16 h-16 bg-white lg:text-2xl text-5xl rounded-full"
               >
                 ＜
               </button>
               <button
                 onClick={next}
-                className="absolute hover:scale-150 transition-transform xl:right-[42.5vw] xl:top-[30vh] top-80 right-14 xl:w-8 xl:h-8 w-16 h-16 bg-white xl:text-2xl text-5xl rounded-full"
+                className="absolute hover:scale-150 transition-transform lg:right-[42.5vw] lg:top-[30vh] top-80 right-14 lg:w-8 lg:h-8 w-16 h-16 bg-white lg:text-2xl text-5xl rounded-full"
               >
                 ＞
               </button>
               <div
                 id="container"
-                className="transition-all flex flex-nowrap overflow-x-hidden xl:w-[100%] w-[80vw]"
+                className="transition-all flex flex-nowrap overflow-x-hidden lg:w-[100%] w-[80vw]"
               >
                 <img
                   src="https://endyd9.github.io/Portfolio//img/oi/로그인 안한 메인.png"
@@ -259,53 +259,53 @@ const ProjectDetail = ({ name, detailStatus }) => {
                   alt=""
                 />
               </div>
-              <p className="mt-4 ml-72 xl:ml-0 xl:text-sm text-2xl">
+              <p className="mt-4 ml-72 lg:ml-0 lg:text-sm text-2xl">
                 {description?.length ? description[dcount] : null}
               </p>
             </div>
-            <div className="bg-white xl:mt-10 mt-48 xl:w-[50vw] w-[80vw] xl:min-h[50vh]  xl:relative rounded-md xl:mx-5">
+            <div className="bg-white lg:mt-10 mt-48 lg:w-[50vw] w-[80vw] lg:min-h[50vh]  lg:relative rounded-md lg:mx-5">
               <ul className="mt-5 ml-8 list-disc text-start text-sm px-5">
-                <li className="xl:text-lg text-4xl">프로젝트 개요</li>
-                <p className="xl:text-sm text-2xl">
+                <li className="lg:text-lg text-4xl">프로젝트 개요</li>
+                <p className="lg:text-sm text-2xl">
                   React.JS와 Express.JS 를 활용한 중고거래 서비스 입니다.
                 </p>
-                <p className="xl:text-sm text-2xl">
+                <p className="lg:text-sm text-2xl">
                   React.JS를 배우고 손에 익히기 위해 진행한 프로젝트입니다.
                 </p>
-                <p className="xl:text-sm text-2xl">
+                <p className="lg:text-sm text-2xl">
                   백엔드는 DB의 CRUD만 담당하고 라우팅은 ReactRoute를 활용하여
                   CSR로
                 </p>
-                <p className="xl:text-sm text-2xl">구현하였습니다.</p>
-                <p className="xl:text-sm text-2xl">
+                <p className="lg:text-sm text-2xl">구현하였습니다.</p>
+                <p className="lg:text-sm text-2xl">
                   프론트는 React.JS를 활용한 SPA로 구현하여, 회원가입, 로그인,
                   게시글 작성,
                 </p>
-                <p className="xl:text-sm text-2xl">
+                <p className="lg:text-sm text-2xl">
                   게시글 검색 등 기본적인 기능들을 구현하였고, Socket.io를
                   활용하여 실시간
                 </p>
-                <p className="xl:text-sm text-2xl">
+                <p className="lg:text-sm text-2xl">
                   통신방식으로 채팅 기능을 구현하였습니다.
                 </p>
                 <br />
-                <li className="xl:text-lg text-4xl">사용언어 및 프레임 워크</li>
-                <p className="xl:text-sm text-2xl">
+                <li className="lg:text-lg text-4xl">사용언어 및 프레임 워크</li>
+                <p className="lg:text-sm text-2xl">
                   개발환경 : MacOS13, VScode
                 </p>
-                <p className="xl:text-sm text-2xl">
+                <p className="lg:text-sm text-2xl">
                   Frontend : JavaScript, React.JS{" "}
                 </p>
-                <p className="xl:text-sm text-2xl">
+                <p className="lg:text-sm text-2xl">
                   Backend : Node.JS, Express.JS, Socket.io
                 </p>
-                <p className="xl:text-sm text-2xl">DB : MongoDB</p>
+                <p className="lg:text-sm text-2xl">DB : MongoDB</p>
                 <br />
 
-                <li className="xl:text-lg text-4xl">소스코드</li>
+                <li className="lg:text-lg text-4xl">소스코드</li>
                 <ul className="list-disc ml-1">
-                  <li className="xl:text-base text-2xl">Frontend</li>
-                  <p className="xl:text-sm text-2xl">
+                  <li className="lg:text-base text-2xl">Frontend</li>
+                  <p className="lg:text-sm text-2xl">
                     github :{" "}
                     <a
                       className="underline text-slate-400"
@@ -315,8 +315,8 @@ const ProjectDetail = ({ name, detailStatus }) => {
                       소스코드 바로가기
                     </a>
                   </p>
-                  <li className="xl:text-base text-2xl">Backend</li>
-                  <p className="xl:text-sm text-2xl">
+                  <li className="lg:text-base text-2xl">Backend</li>
+                  <p className="lg:text-sm text-2xl">
                     github :{" "}
                     <a
                       className="underline text-slate-400"
@@ -326,8 +326,8 @@ const ProjectDetail = ({ name, detailStatus }) => {
                       소스코드 바로가기
                     </a>
                   </p>
-                  <li className="xl:text-base text-2xl">Page</li>
-                  <p className="xl:text-sm text-2xl">
+                  <li className="lg:text-base text-2xl">Page</li>
+                  <p className="lg:text-sm text-2xl">
                     Deploy :{" "}
                     <a
                       target="_blank"
@@ -346,10 +346,10 @@ const ProjectDetail = ({ name, detailStatus }) => {
     }
   };
   return (
-    <div className="relative animate-[intro_1s] mt-10 bg-slate-300 xl:w-[80vw] xl:h-[68vh] h-[100%] w-[90vw] rounded-md">
+    <div className="relative animate-[intro_1s] mt-10 bg-slate-300 lg:w-[80vw] lg:h-[68vh] h-[100%] w-[90vw] rounded-md">
       <button
         onClick={() => detailStatus()}
-        className="absolute xl:text-2xl text-4xl mt-5 right-6"
+        className="absolute lg:text-2xl text-4xl mt-5 right-6"
       >
         ❌
       </button>

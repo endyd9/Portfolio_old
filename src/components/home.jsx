@@ -42,7 +42,7 @@ const Home = () => {
             "animate-intro absolute -z-10 w-full h-screen text-center right-0 bg-black bg-opacity-50"
           }
         >
-          <h1 className="relative animate-cursor inline-block w-auto  text-white xl:text-4xl xl:top-1/2 text-7xl top-[45vh] ">
+          <h1 className="relative animate-cursor inline-block w-auto  text-white lg:text-4xl lg:top-1/2 text-7xl top-[45vh] ">
             {text}
           </h1>
         </div>
