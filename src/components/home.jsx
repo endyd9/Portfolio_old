@@ -3,12 +3,12 @@ import { useEffect, useState } from "react";
 const Home = () => {
   const [intro, setIntro] = useState(false);
   const [text, setText] = useState("");
+  const isMobile = () =>
+    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+      navigator.userAgent
+    );
 
   const showText = async () => {
-    const isMobile = () =>
-      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-        navigator.userAgent
-      );
     let cnt = 0;
     const inner = "성장중인 개발자 김두용입니다.";
     while (cnt !== inner.length) {
