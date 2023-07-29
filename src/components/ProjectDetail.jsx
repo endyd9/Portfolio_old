@@ -176,7 +176,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
           "다른 이용자의 마이페이지",
         ];
         return (
-          <div className="flex lg:flex-row flex-col lg:justify-between items-center justify-center ">
+          <div className="lg:pt-0 pt-10 flex lg:flex-row flex-col lg:justify-between items-center justify-center ">
             <div className="w-[50vw] h-96 mx-5 mr-[32.5vw] lg:mr-0 mt-10 2xl:-mt-16 lg:-mt-10">
               <button
                 onClick={prev}
