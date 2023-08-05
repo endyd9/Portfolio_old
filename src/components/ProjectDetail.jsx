@@ -35,7 +35,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
   const project = () => {
     switch (name) {
       case "Drawing Game":
-        buttonPosition = isMobile ? "lg:top-[27vh]" : "lg:top-[30vh]";
+        buttonPosition = isMobile ? "lg:top-[27vh]" : "lg:top-[36vh]";
         description = [
           "시작화면",
           "게임화면",
@@ -45,8 +45,8 @@ const ProjectDetail = ({ name, detailStatus }) => {
           "게임결과",
         ];
         return (
-          <div className="pt-10 flex lg:flex-row flex-col lg:justify-between items-center justify-center ">
-            <div className="w-[50vw] h-96 lg:mx-10 mx-5 mr-[32.5vw] lg:mr-0 mt-10 lg:-mt-10">
+          <div className="h-full flex lg:flex-row flex-col lg:justify-between items-center justify-center ">
+            <div className="w-[50vw] xl:mb-0 mb-44 h-96 lg:mx-10 mx-5 mr-[32.5vw] lg:mr-0">
               <button
                 onClick={prev}
                 className={`absolute lg:hover:scale-150  transition-transform 2xl:left-[3vw] lg:left-[3.5vw] ${buttonPosition} top-72 left-14 lg:w-8 lg:h-8 w-16 h-16 bg-white lg:text-2xl text-5xl rounded-full`}
@@ -92,7 +92,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
                 {description?.length ? description[dcount] : null}
               </p>
             </div>
-            <div className="bg-white lg:my-28 my-44 lg:mt-20 lg:w-[50vw] w-[80vw] lg:min-h[50vh]  relative rounded-md mx-5">
+            <div className="bg-white lg:w-[50vw] w-[80vw] lg:min-h[50vh]  relative rounded-md mx-5">
               <ul className="mt-5 ml-8 list-disc text-start text-sm px-3">
                 <li className="lg:text-lg text-4xl">프로젝트 개요</li>
                 <p className="lg:text-sm text-2xl">
@@ -176,23 +176,23 @@ const ProjectDetail = ({ name, detailStatus }) => {
           "다른 이용자의 마이페이지",
         ];
         return (
-          <div className="lg:pt-0 pt-10 flex lg:flex-row flex-col lg:justify-between items-center justify-center ">
-            <div className="w-[50vw] h-96 mx-5 mr-[32.5vw] lg:mr-0 mt-10 2xl:-mt-16 lg:-mt-10">
+          <div className="lg:pt-0 pt-10  h-full flex lg:flex-row flex-col lg:justify-between items-center justify-center ">
+            <div className="w-[50vw] h-96 mx-5 mr-[32.5vw] lg:mr-0 mt-10 xl:-mt-32 lg:-mt-10">
               <button
                 onClick={prev}
-                className={`absolute lg:hover:scale-150 transition-transform lg:left-9 ${buttonPosition} top-80 left-14 lg:w-8 lg:h-8 w-16 h-16 bg-white lg:text-2xl text-5xl rounded-full`}
+                className={`absolute lg:hover:scale-150 transition-transform lg:left-9 ${buttonPosition} top-96 left-14 lg:w-8 lg:h-8 w-16 h-16 bg-white lg:text-2xl text-5xl rounded-full`}
               >
                 ＜
               </button>
               <button
                 onClick={next}
-                className={`absolute lg:hover:scale-150 transition-transform lg:right-[41.5vw] ${buttonPosition}  top-80 right-14 lg:w-8 lg:h-8 w-16 h-16 bg-white lg:text-2xl text-5xl rounded-full`}
+                className={`absolute lg:hover:scale-150 transition-transform lg:right-[41.5vw] ${buttonPosition}  top-96 right-14 lg:w-8 lg:h-8 w-16 h-16 bg-white lg:text-2xl text-5xl rounded-full`}
               >
                 ＞
               </button>
               <div
                 id="container"
-                className="transition-all flex flex-nowrap overflow-x-hidden lg:w-[100%] w-[80vw]"
+                className="transition-all flex flex-nowrap overflow-x-hidden 2xl:mt-0 lg:mt-20 lg:w-[100%] w-[80vw]"
               >
                 <img
                   src="https://endyd9.github.io/Portfolio//img/oi/로그인 안한 메인.png"
