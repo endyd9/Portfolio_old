@@ -192,7 +192,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
               </button>
               <div
                 id="container"
-                className="transition-all flex flex-nowrap overflow-x-hidden 2xl:mt-0 lg:mt-20 lg:w-[100%] w-[80vw]"
+                className="transition-all flex flex-nowrap overflow-x-hidden 2xl:mt-10 xl:mt-20 lg:w-[100%] w-[80vw]"
               >
                 <img
                   src="https://endyd9.github.io/Portfolio//img/oi/로그인 안한 메인.png"
@@ -267,7 +267,7 @@ const ProjectDetail = ({ name, detailStatus }) => {
                 {description?.length ? description[dcount] : null}
               </p>
             </div>
-            <div className="bg-white lg:my-28 my-48 lg:mt-20 lg:w-[50vw] w-[80vw] lg:min-h[50vh]  relative rounded-md mx-5">
+            <div className="bg-white lg:my-28 my-48 lg:mt-32 lg:w-[50vw] w-[80vw] lg:min-h[50vh] relative rounded-md mx-5">
               <ul className="mt-5 ml-8 list-disc text-start text-sm px-5">
                 <li className="lg:text-lg text-4xl">프로젝트 개요</li>
                 <p className="lg:text-sm text-2xl">
